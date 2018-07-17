@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MarkFilm</title>
+    <link rel="stylesheet" href="filmes.css">
+    <link rel="shortcut icon" href="imgs/icone.png">
+  </head>
+  <body>
+    <header>
+       <div id="topo-topo">
+              <ul>
+                  <li><a href="filmes_assistir.html" style="color: white">Filmes para assistir</a></li>
+                  <li><a href="filmes_assistidos.html" style="color: white">Filmes já assistidos</a></li>
+                  <li><a href="series_assistidas.html" style="color: white">Séries já assistidas</a></li>
+                  <li><a href="series_assistir.html" style="color: white">Séries para assistir</a></li>
+              </ul>
+       </div>
+      <h1 id="marca">Séries para assistir <br></h1>
+    </header>
+
+    <main id="app">
+      <div id="nova-tarefa">
+        <input type="text" id="nova-tarefa-nome" autofocus placeholder="Digite a série que deseja assistir">
+        <!-- DESAFIO 3 -->
+        <!--
+        <select id="nova-tarefa-categoria">
+          <option value="lazer">Lazer</option>
+          <option value="compras">Compras</option>
+          <option value="estudos">Estudos</option>
+        </select>
+        -->
+        <button id="incluir-nova-tarefa">+</button>
+      </div>
+      <ul id="lista-tarefas">
+        <!-- Exemplo de item da lista -->
+        <li class="item-tarefa marcado">Exemplo de item da lista</li>
+      </ul>
+    </main>
+
+    <script src="filmes.js" charset="utf-8"></script>
+  </body>
+</html>
